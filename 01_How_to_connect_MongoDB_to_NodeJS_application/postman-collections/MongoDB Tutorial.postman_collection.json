@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "8b7e3a56-ecc9-4359-8845-d55e8ac3569d",
+		"name": "MongoDB Tutorial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5596921"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000",
+					"host": [
+						"localhost"
+					],
+					"port": "4000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/planets",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"planets"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
